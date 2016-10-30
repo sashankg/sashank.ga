@@ -1,0 +1,156 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Rubik;
+    width: 100%;
+}
+.postList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.post {
+    margin: 12px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+.content {
+    max-height: 260px;
+    max-width: 260px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading h1 {
+    color: blue;
+    font-weight: 500;
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+}
+
+.heading h2 {
+    color: blue;
+    font-weight: 900;
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+}
+
+.directory {
+    background-color: white;
+    color: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.directoryName {
+    color: blue;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.crumbLink {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400
+}
+
+.crumb .slash {
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #555F61;
+}
+
+.breadcrumbs .current {
+    color: #555F61;
+    text-transform: capitalize;
+}
+
+.transition {
+    position: relative;
+}
+
+.markdown {
+    max-width: 700px;
+    line-height: 1.58;
+    font-size: 18px;
+}
+
+.markdown h1 {
+    color: blue;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.markdown h2 {
+    margin-bottom: 8px;
+}
+
+.markdown p {
+    margin-top: 0px;
+}
+
+.markdown img {
+    display: block;
+    margin: auto;
+}
+
+.projectLink {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.projectBackground {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectName {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: blue;
+    width: 100%;
+    padding: 2px;
+}
